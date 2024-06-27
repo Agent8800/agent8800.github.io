@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+    <!-- Meta Tag -->
+    <meta charset='utf-8'/>
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <meta content='blogger' name='generator'/>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+    <link href='http://www.blogger.com/openid-server.g' rel='openid.server'/>
+    <link expr:href='data:blog.homepageUrl' rel='openid.delegate'/>
+    <link expr:href='data:blog.url' rel='canonical'/>
+    <b:if cond='data:blog.pageType == &quot;index&quot;'>
+        <title><data:blog.pageTitle/></title>
+        <b:else/>
+        <b:if cond='data:blog.pageType != &quot;error_page&quot;'>
+            <title><data:blog.pageName/> - <data:blog.title/></title>
+        </b:if>
+    </b:if>
+    <b:if cond='data:blog.pageType == &quot;error_page&quot;'>
+        <title>Page Not Found - <data:blog.title/></title>
+    </b:if>
+    <b:if cond='data:blog.pageType == &quot;archive&quot;'>
+        <meta content='noindex' name='robots'/>
+    </b:if>
+    <b:if cond='data:blog.searchLabel'>
+        <meta content='noindex,nofollow' name='robots'/>
+    </b:if>
+    <b:if cond='data:blog.isMobile'>
+        <meta content='noindex,nofollow' name='robots'/>
+    </b:if>
+    <b:if cond='data:blog.pageType != &quot;error_page&quot;'>
+        <meta expr:content='data:blog.metaDescription' name='description'/>
+        <b:if cond='data:blog.homepageUrl != data:blog.url'>
+            <meta expr:content='data:blog.pageName + &quot;, &quot; + data:blog.pageTitle + &quot;, &quot; + data:blog.title' name='keywords'/>
+        </b:if>
+    </b:if>
+    <b:if cond='data:blog.url == data:blog.homepageUrl'>
+        <meta content='xxxxx' name='keywords'/>
+    </b:if>
+    <link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
+    <link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default?alt=rss&quot;' expr:title='data:blog.title + &quot; - RSS&quot;' rel='alternate' type='application/rss+xml'/>
+    <link expr:href='&quot;http://www.blogger.com/feeds/&quot; + data:blog.blogId + &quot;/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
+    <b:if cond='data:blog.pageType == &quot;item&quot;'>
+        <b:if cond='data:blog.postImageThumbnailUrl'>
+            <link expr:href='data:blog.postImageThumbnailUrl' rel='image_src'/>
+        </b:if>
+    </b:if>
+    <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+    <link href='https://plus.google.com/xxxxx/posts' rel='publisher'/>
+    <link href='https://plus.google.com/xxxxx/about' rel='author'/>
+    <link href='https://plus.google.com/xxxxx' rel='me'/>
+    <meta content='Indonesia' name='geo.placename'/>
+    <meta content='xxxxx' name='Author'/>
+    <meta content='general' name='rating'/>
+    <meta content='id' name='geo.country'/>
+    <!-- Facebook Open Graph -->
+    <b:if cond='data:blog.pageType == &quot;item&quot;'>
+        <meta expr:content='data:blog.pageName' property='og:title'/>
+        <meta expr:content='data:blog.canonicalUrl' property='og:url'/>
+        <meta content='article' property='og:type'/>
+        <b:if cond='data:blog.metaDescription'>
+            <meta expr:content='data:blog.metaDescription' property='og:description'/>
+            <b:else/>
+            <meta expr:content='&quot;Update Anime &quot; + data:blog.pageName + &quot; download now in &quot; + data:blog.title + &quot;&quot;' property='og:description'/>
+        </b:if>
+    </b:if>
+    <meta expr:content='data:blog.title' property='og:site_name'/>
+    <b:if cond='data:blog.url == data:blog.homepageUrl'>
+        <meta content='website' property='og:type'/>
+        <b:if cond='data:blog.metaDescription'>
+            <meta expr:content='data:blog.metaDescription' property='og:description'/>
+            <b:else/>
+            <meta expr:content='&quot;Please visit &quot; + data:blog.pageTitle + &quot; for watch and download anime new episode.&quot;' property='og:description'/>
+        </b:if>
+    </b:if>
+    <b:if cond='data:blog.postImageUrl'>
+        <meta expr:content='data:blog.postImageUrl' property='og:image'/>
+        <b:else/>
+        <b:if cond='data:blog.postImageThumbnailUrl'>
+            <meta expr:content='data:blog.postThumbnailUrl' property='og:image'/>
+            <b:else/>
+            <meta expr:content='data:blog.blogspotFaviconUrl' property='og:image'/>
+        </b:if>
+    </b:if>
+</head>
+<body>
+<b:skin><![CDATA[
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://example.com/background.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+}
+* {
+    font-weight: bold;
+}
+
+/* Header styles */
+header {
+    background-color: #ff5c5c;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Notification section styles */
+.notification {
+    background-color: #ffcc00;
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Slider styles */
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 2em auto;
+    overflow: hidden;
+}
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slides img {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Blog posts styles */
+.blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    gap: 1em;
+}
+.blog-posts article {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    margin-bottom: 1em;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(50% - 1em); /* Adjusts to two columns */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog-posts article img {
+    width: 100%;
+    height: auto;
+}
+.blog-posts article h2 {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+.blog-posts article p {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+footer p {
+    margin: 0;
+}
+]]></b:skin>
+
+<b:template-skin>
+    <b:section id='header' class='header' showaddelement='yes'>
+        <b:widget id='Header1' locked='true' title='Header' type='Header'/>
+    </b:section>
+    <div class="notification">
+        <p>Important Notification: Check out our latest updates!</p>
+    </div>
+    <div class="slider">
+        <div class="slides">
+            <img src="https://example.com/anime1.jpg" alt="Anime 1">
+            <img src="https://example.com/anime2.jpg" alt="Anime 2">
+            <img src="https://example.com/anime3.jpg" alt="Anime 3">
+        </div>
+    </div>
+    <main>
+        <section class="blog-posts">
+            <b:section id='main' class='main-section' showaddelement='yes'>
+                <b:widget id='Blog1' locked='false' title='Blog Posts' type='Blog'>
+                    <b:includable id='main'>
+                        <b:include name='blog-posts'/>
+                    </b:includable>
+                </b:widget>
+            </b:section>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Anime Blog. All rights reserved.</p>
+    </footer>
+    <b:section id='footer' class='footer' showaddelement='yes'>
+        <b:widget id='Footer1' locked='true' title='Footer' type='Footer'/>
+    </b:section>
+    <script>
+        let slideIndex = 0;
+        const slides = document.querySelector('.slides');
+
+        function showSlides() {
+            const totalSlides = slides.children.length;
+            slideIndex = (slideIndex + 1) % totalSlides;
+            slides.style.transform = `translateX(${-slideIndex * 100}%)`;
+        }
+
+        setInterval(showSlides, 3000);
+    </script>
+</body>
+</html>
